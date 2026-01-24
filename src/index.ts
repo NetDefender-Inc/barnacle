@@ -15,11 +15,11 @@ const gateway = new GatewayPlugin({
 
 const client = new Client(
 	{
-		baseUrl: process.env.BASE_URL,
-		deploySecret: process.env.DEPLOY_SECRET,
-		clientId: process.env.DISCORD_CLIENT_ID,
-		publicKey: process.env.DISCORD_PUBLIC_KEY,
-		token: process.env.DISCORD_BOT_TOKEN,
+		baseUrl: process.env.BASE_URL ?? "http://localhost:3000",
+		deploySecret: process.env.DEPLOY_SECRET ?? "unused",
+		clientId: process.env.DISCORD_CLIENT_ID ?? "unused",
+		publicKey: process.env.DISCORD_PUBLIC_KEY ?? "unused",
+		token: process.env.DISCORD_BOT_TOKEN ?? "",
 		devGuilds: process.env.DISCORD_DEV_GUILDS?.split(","), // Optional: comma-separated list of dev guild IDs
 	},
 	{
