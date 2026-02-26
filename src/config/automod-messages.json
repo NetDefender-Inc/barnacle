@@ -33,6 +33,14 @@
       "trigger": "*moltbook*",
       "message": "{user}, Openclaw isn't affiliated with Moltbook. Moltbook is a separate user-developed project, so we would prefer it not be discussed in this server.",
       "redact": false
+    },
+    {
+      "trigger": "testflight",
+      "message": "Thank you for your interest - there's currently no Testflight program, if you want to run OpenClaw on your phone, please compile the code in the repo (Claude Code, Codex or Gemini can help you), and feel free to submit PRs if you find issues. We'll let the community know once Testflight becomes available"
+    },
+    {
+      "trigger": "test flight",
+      "message": "Thank you for your interest - there's currently no Testflight program, if you want to run OpenClaw on your phone, please compile the code in the repo (Claude Code, Codex or Gemini can help you), and feel free to submit PRs if you find issues. We'll let the community know once Testflight becomes available"
     }
   ]
 }
